@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+    <value>
+      <PW_Snover>0.6</PW_Snover>
+      <PW_Abomasnow>0.1</PW_Abomasnow>
+      <PW_Weavile>0.1</PW_Weavile>
+      <PW_Glaceon>0.025</PW_Glaceon>
+      <PW_Mamoswine>0.05</PW_Mamoswine>
+      <PW_Dusknoir>0.009</PW_Dusknoir>
+      <PW_Froslass>0.07</PW_Froslass>
+      <PW_Honchkrow>0.07</PW_Honchkrow>
+      <PW_Mismagius>0.01</PW_Mismagius>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+    <value>
+      <PW_Piplup>0.03</PW_Piplup>
+      <PW_Prinplup>0.02</PW_Prinplup>
+      <PW_Empoleon>0.025</PW_Empoleon>
+      <PW_Snover>0.4</PW_Snover>
+      <PW_Abomasnow>0.1</PW_Abomasnow>
+      <PW_Weavile>0.2</PW_Weavile>
+      <PW_Glaceon>0.025</PW_Glaceon>
+      <PW_Mamoswine>0.03</PW_Mamoswine>
+      <PW_Froslass>0.03</PW_Froslass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+    <value>
+      <PW_Snover>0.3</PW_Snover>
+      <PW_Abomasnow>0.08</PW_Abomasnow>
+      <PW_Weavile>0.08</PW_Weavile>
+      <PW_Glaceon>0.025</PW_Glaceon>
+      <PW_Froslass>0.03</PW_Froslass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+    <value>
+      <PW_Piplup>0.05</PW_Piplup>
+      <PW_Prinplup>0.03</PW_Prinplup>
+      <PW_Empoleon>0.025</PW_Empoleon>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+    <value>
+      <PW_Piplup>0.05</PW_Piplup>
+      <PW_Prinplup>0.03</PW_Prinplup>
+      <PW_Empoleon>0.025</PW_Empoleon>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+    <value>
+     <PW_Turtwig>0.05</PW_Turtwig>
+     <PW_Grotle>0.03</PW_Grotle>
+     <PW_Torterra>0.025</PW_Torterra>
+     <PW_Starly>1.0</PW_Starly>
+     <PW_Staravia>0.5</PW_Staravia>
+     <PW_Staraptor>0.1</PW_Staraptor>
+     <PW_Bidoof>1.0</PW_Bidoof>
+     <PW_Bibarel>0.4</PW_Bibarel>
+     <PW_Kricketot>1.0</PW_Kricketot>
+     <PW_Kricketune>0.5</PW_Kricketune>
+     <PW_Shinx>1.0</PW_Shinx>
+     <PW_Luxio>0.4</PW_Luxio>
+     <PW_Luxray>0.09</PW_Luxray>
+     <PW_Roserade>0.07</PW_Roserade>
+     <PW_Burmy>0.7</PW_Burmy>
+     <PW_Wormadam>0.2</PW_Wormadam>
+     <PW_Mothim>0.2</PW_Mothim>
+     <PW_Combee>0.5</PW_Combee>
+     <PW_Vespiquen>0.1</PW_Vespiquen>
+     <PW_Pachirisu>0.6</PW_Pachirisu>
+     <PW_Buizel>0.5</PW_Buizel>
+     <PW_Floatzel>0.07</PW_Floatzel>
+     <PW_Cherubi>0.4</PW_Cherubi>
+     <PW_Cherrim>0.2</PW_Cherrim>
+     <PW_Drifloon>0.4</PW_Drifloon>
+     <PW_Drifblim>0.03</PW_Drifblim>
+     <PW_Buneary>0.7</PW_Buneary>
+     <PW_Lopunny>0.2</PW_Lopunny>
+     <PW_Mismagius>0.05</PW_Mismagius>
+     <PW_Honchkrow>0.1</PW_Honchkrow>
+     <PW_Glameow>0.5</PW_Glameow>
+     <PW_Purugly>0.2</PW_Purugly>
+     <PW_Stunky>0.7</PW_Stunky>
+     <PW_Skuntank>0.2</PW_Skuntank>
+     <PW_Lucario>0.07</PW_Lucario>
+     <PW_Lickilicky>0.03</PW_Lickilicky>
+     <PW_Togekiss>0.009</PW_Togekiss>
+     <PW_Yanmega>0.1</PW_Yanmega>
+     <PW_Leafeon>0.025</PW_Leafeon>
+     <PW_Rotom>0.2</PW_Rotom>
+     <PW_Dusknoir>0.09</PW_Dusknoir>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+    <value>
+      <PW_Bidoof>1</PW_Bidoof>
+      <PW_Bibarel>0.5</PW_Bibarel>
+      <PW_Burmy>0.5</PW_Burmy>
+      <PW_Wormadam>0.2</PW_Wormadam>
+      <PW_Mothim>0.08</PW_Mothim>
+      <PW_Shellos>0.7</PW_Shellos>
+      <PW_Gastrodon>0.7</PW_Gastrodon>
+      <PW_Mismagius>0.05</PW_Mismagius>
+      <PW_Honchkrow>0.07</PW_Honchkrow>
+      <PW_Stunky>0.4</PW_Stunky>
+      <PW_Skuntank>0.1</PW_Skuntank>
+      <PW_Bronzor>0.3</PW_Bronzor>
+      <PW_Bronzong>0.07</PW_Bronzong>
+      <PW_Croagunk>0.5</PW_Croagunk>
+      <PW_Toxicroak>0.09</PW_Toxicroak>
+      <PW_Carnivine>0.7</PW_Carnivine>
+      <PW_Tangrowth>0.1</PW_Tangrowth>
+      <PW_Yanmega>0.2</PW_Yanmega>
+      <PW_Leafeon>0.025</PW_Leafeon>
+      <PW_Dusknoir>0.09</PW_Dusknoir>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+    <value>
+     <PW_Turtwig>0.03</PW_Turtwig>
+     <PW_Grotle>0.02</PW_Grotle>
+     <PW_Torterra>0.01</PW_Torterra>
+     <PW_Chimchar>0.05</PW_Chimchar>
+     <PW_Monferno>0.03</PW_Monferno>
+     <PW_Infernape>0.025</PW_Infernape>
+     <PW_Kricketot>1.0</PW_Kricketot>
+     <PW_Kricketune>0.5</PW_Kricketune>
+     <PW_Roserade>0.07</PW_Roserade>
+     <PW_Burmy>0.7</PW_Burmy>
+     <PW_Wormadam>0.3</PW_Wormadam>
+     <PW_Mothim>0.2</PW_Mothim>
+     <PW_Combee>0.7</PW_Combee>
+     <PW_Vespiquen>0.3</PW_Vespiquen>
+     <PW_Cherubi>0.6</PW_Cherubi>
+     <PW_Cherrim>0.3</PW_Cherrim>
+     <PW_Ambipom>0.2</PW_Ambipom>
+     <PW_Bronzor>0.4</PW_Bronzor>
+     <PW_Bronzong>0.1</PW_Bronzong>
+     <PW_Chatot>0.5</PW_Chatot>
+     <PW_Carnivine>1</PW_Carnivine>
+     <PW_Finneon>0.4</PW_Finneon>
+     <PW_Lumineon>0.1</PW_Lumineon>
+     <PW_Tangrowth>0.2</PW_Tangrowth>
+     <PW_Yanmega>0.2</PW_Yanmega>
+     <PW_Leafeon>0.028</PW_Leafeon>
+     <PW_Rotom>0.2</PW_Rotom>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+    <value>
+     <PW_Burmy>0.5</PW_Burmy>
+     <PW_Wormadam>0.2</PW_Wormadam>
+     <PW_Mothim>0.08</PW_Mothim>
+     <PW_Bronzor>0.4</PW_Bronzor>
+     <PW_Bronzong>0.1</PW_Bronzong>
+     <PW_Carnivine>1</PW_Carnivine>
+     <PW_Tangrowth>0.2</PW_Tangrowth>
+     <PW_Yanmega>0.2</PW_Yanmega>
+     <PW_Leafeon>0.025</PW_Leafeon>
+     <PW_Gliscor>0.05</PW_Gliscor>
+     <PW_Dusknoir>0.09</PW_Dusknoir>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+    <value>
+      <PW_Chimchar>0.03</PW_Chimchar>
+      <PW_Monferno>0.02</PW_Monferno>
+      <PW_Infernape>0.01</PW_Infernape>
+      <PW_Shinx>0.7</PW_Shinx>
+      <PW_Luxio>0.2</PW_Luxio>
+      <PW_Luxray>0.05</PW_Luxray>
+      <PW_Gible>0.5</PW_Gible>
+      <PW_Gabite>0.1</PW_Gabite>
+      <PW_Garchomp>0.05</PW_Garchomp>
+      <PW_Magnezone>0.03</PW_Magnezone>
+      <PW_Rhyperior>0.02</PW_Rhyperior>
+      <PW_Electivire>0.02</PW_Electivire>
+      <PW_Gliscor>0.02</PW_Gliscor>
+      <PW_Probopass>0.02</PW_Probopass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+    <value>
+      <PW_Hippopotas>0.7</PW_Hippopotas>
+      <PW_Hippowdon>0.3</PW_Hippowdon>
+      <PW_Skorupi>1</PW_Skorupi>
+      <PW_Drapion>0.2</PW_Drapion>
+      <PW_Magmortar>0.02</PW_Magmortar>
+      <PW_Probopass>0.02</PW_Probopass>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+    <value>
+      <PW_Magmortar>0.025</PW_Magmortar>
+    </value>
+  </Operation>
+
+</Patch>

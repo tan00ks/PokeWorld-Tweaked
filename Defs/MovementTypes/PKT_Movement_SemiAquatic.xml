@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <PathfindingFramework.MovementDef ParentName="PF_Movement_AquaticBase">
+        <defName>PKT_Movement_SemiAquatic</defName>
+        <label>semi-aquatic</label>
+        <description>While these creatures can travel on land to a degree, they're more at home in deep waters and oceans.</description>
+        <priority>2000</priority>
+        <defaultCost>Default</defaultCost>
+        <defaultCostAdd>40</defaultCostAdd>
+        <penAnimalsDisallowed>true</penAnimalsDisallowed>
+    </PathfindingFramework.MovementDef>
+</Defs>

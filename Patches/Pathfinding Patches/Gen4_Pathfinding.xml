@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Starly" or defName="PW_Staravia" or defName="PW_Staraptor" or defName="PW_Mothim" or defName="PW_Combee" or defName="PW_Vespiquen" or defName="PW_Drifloon" or defName="PW_Drifblim" or defName="PW_Mismagius" or defName="PW_Honchkrow" or defName="PW_Bronzor" or defName="PW_Bronzong" or defName="PW_Chatot" or defName="PW_Spiritomb" or defName="PW_Magnezone" or defName="PW_Togekiss" or defName="PW_Yanmega" or defName="PW_Gliscor" or defName="PW_PorygonZ" or defName="PW_Probopass" or defName="PW_Dusknoir" or defName="PW_Froslass" or defName="PW_Rotom"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Flying</movementDef>
+			          </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Piplup" or defName="PW_Prinplup" or defName="PW_Empoleon" or defName="PW_Bidoof" or defName="PW_Bibarel" or defName="PW_Buizel" or defName="PW_Floatzel" or defName="PW_Shellos" or defName="PW_Gastrodon"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Amphibious</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Finneon" or defName="PW_Lumineon" or defName="PW_Mantyke"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PKT_Movement_SemiAquatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Hippopotas" or defName="PW_Hippowdon"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Digging</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+</Patch>

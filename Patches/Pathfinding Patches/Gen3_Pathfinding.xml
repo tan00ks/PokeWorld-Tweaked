@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Beautifly" or defName="PW_Dustox" or defName="PW_Tailow" or defName="PW_Swellow" or defName="PW_Wingull" or defName="PW_Pelipper" or defName="PW_Masquerain" or defName="PW_Ninjask" or defName="PW_Shedinja" or defName="PW_Nosepass" or defName="PW_Meditite" or defName="PW_Volbeat" or defName="PW_Illumise" or defName="PW_Vibrava" or defName="PW_Swablu" or defName="PW_Altaria" or defName="PW_Lunatone" or defName="PW_Solrock" or defName="PW_Baltoy" or defName="PW_Claydol" or defName="PW_Castform" or defName="PW_Shuppet" or defName="PW_Banette" or defName="PW_Duskull" or defName="PW_Dusclops" or defName="PW_Chimecho" or defName="PW_Glalie" or defName="PW_Salamence" or defName="PW_Beldum" or defName="PW_Metang" or defName="PW_Metagross"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Flying</movementDef>
+			          </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Mudkip" or defName="PW_Marshtomp" or defName="PW_Swampert" or defName="PW_Lotad" or defName="PW_Lombre" or defName="PW_Ludicolo" or defName="PW_Surskit" or defName="PW_Azurill" or defName="PW_Corphish" or defName="PW_Crawdaunt" or defName="PW_Spheal" or defName="PW_Sealeo" or defName="PW_Walrein"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Amphibious</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Carvanha" or defName="PW_Sharpedo" or defName="PW_Wailmer" or defName="PW_Wailord" or defName="PW_Barboach" or defName="PW_Whiscash" or defName="PW_Feebas" or defName="PW_Milotic" or defName="PW_Clamperl" or defName="PW_Huntail" or defName="PW_Gorebyss" or defName="PW_Luvdisc"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PKT_Movement_SemiAquatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Trapinch" or defName="PW_Flygon"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Digging</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Torkoal" or defName="PW_Numel" or defName="PW_Camerupt"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Magmatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+</Patch>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Butterfree" or defName="PW_Beedrill" or defName="PW_Pidgey" or defName="PW_Pidgeotto" or defName="PW_Pidgeot" or defName="PW_Spearow" or defName="PW_Fearow" or defName="PW_Zubat" or defName="PW_Golbat" or defName="PW_Venomoth" or defName="PW_Abra" or defName="PW_Kadabra" or defName="PW_Alakazam" or defName="PW_Magnemite" or defName="PW_Magneton" or defName="PW_Gastly" or defName="PW_Haunter" or defName="PW_Koffing" or defName="PW_Weezing" or defName="PW_Scyther" or defName="PW_Porygon" or defName="PW_Aerodactyl" or defName="PW_Articuno" or defName="PW_Zapdos" or defName="PW_Moltres" or defName="PW_Dragonite" or defName="PW_Mewtwo" or defName="PW_Mew"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Flying</movementDef>
+			          </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Squirtle" or defName="PW_Wartortle" or defName="PW_Blastoise" or defName="PW_Psyduck" or defName="PW_Golduck" or defName="PW_Poliwhirl" or defName="PW_Poliwrath" or defName="PW_Farfetchd" or defName="PW_Krabby" or defName="PW_Kingler" or defName="PW_Slowpoke" or defName="PW_Slowbro" or defName="PW_Vaporeon" or defName="PW_Kabutops" or defName="PW_Dratini" or defName="PW_Dragonair"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Amphibious</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Poliwag" or defName="PW_Tentacool" or defName="PW_Tentacruel" or defName="PW_Seel" or defName="PW_Dewgong" or defName="PW_Shellder" or defName="PW_Cloyster" or defName="PW_Horsea" or defName="PW_Seadra" or defName="PW_Goldeen" or defName="PW_Seaking" or defName="PW_Staryu" or defName="PW_Starmie" or defName="PW_Magikarp" or defName="PW_Gyarados" or defName="PW_Lapras" or defName="PW_Omanyte" or defName="PW_Kabuto"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PKT_Movement_SemiAquatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Diglett" or defName="PW_Dugtrio" or defName="PW_Onix"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Drilling</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Sandshrew" or defName="PW_Sandslash"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Digging</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Charmander" or defName="PW_Charmeleon" or defName="PW_Magmar"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Magmatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+</Patch>

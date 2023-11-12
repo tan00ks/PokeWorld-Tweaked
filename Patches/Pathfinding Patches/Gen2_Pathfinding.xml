@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Xatu" or defName="PW_Yanma" or defName="PW_Murkrow" or defName="PW_Misdreavus" or defName="PW_Scizor" or defName="PW_Heracross" or defName="PW_Delibird" or defName="PW_Skarmory" or defName="PW_Porygon2"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Flying</movementDef>
+			          </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Totodile" or defName="PW_Croconaw" or defName="PW_Feraligatr" or defName="PW_Marill" or defName="PW_Azumarill" or defName="PW_Politoed" or defName="PW_Wooper" or defName="PW_Quagsire" or defName="PW_Slowking" or defName="PW_Octillery"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Amphibious</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Chinchou" or defName="PW_Lanturn" or defName="PW_Qwilfish" or defName="PW_Corsola" or defName="PW_Remoraid" or defName="PW_Mantine" or defName="PW_Kingdra"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PKT_Movement_SemiAquatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Steelix"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Drilling</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Dunsparce"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Digging</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+	    <Operation Class="PatchOperationAddModExtension">
+	            <xpath>Defs/ThingDef[defName="PW_Magby" or defName="PW_Slugma" or defName="PW_Magcargo"]</xpath>
+		        <value>
+		               <li Class="PathfindingFramework.MovementExtension">
+			                   <movementDef>PF_Movement_Magmatic</movementDef>
+			           </li>
+		        </value>
+	    </Operation>
+
+</Patch>
