@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+    <xpath>/Defs/BiomeDef[defName="RG_TemperateGrassland"]/wildAnimals</xpath>
+    <value>
+      <PW_Tauros>0.5</PW_Tauros>
+      <PW_Eevee>0.05</PW_Eevee>
+      <PW_Ditto>0.001</PW_Ditto>
+      <PW_Sentret>1</PW_Sentret>
+      <PW_Furret>0.4</PW_Furret>
+      <PW_Stantler>0.4</PW_Stantler>
+      <PW_Spinda>0.5</PW_Spinda>
+      <PW_Absol>0.01</PW_Absol>
+      <PW_Mareep>0.6</PW_Mareep>
+      <PW_Flaaffy>0.3</PW_Flaaffy>
+      <PW_Ampharos>0.07</PW_Ampharos>
+      <PW_Miltank>0.5</PW_Miltank>
+      <PW_Spearow>0.7</PW_Spearow>
+      <PW_Fearow>0.4</PW_Fearow>
+      <PW_Pikachu>0.5</PW_Pikachu>
+      <PW_Raichu>0.07</PW_Raichu>
+      <PW_NidoranF>0.6</PW_NidoranF>
+      <PW_Nidorina>0.5</PW_Nidorina>
+      <PW_Nidoqueen>0.1</PW_Nidoqueen>
+      <PW_NidoranM>0.6</PW_NidoranM>
+      <PW_Nidorino>0.5</PW_Nidorino>
+      <PW_Nidoking>0.1</PW_Nidoking>
+      <PW_Vulpix>0.07</PW_Vulpix>
+      <PW_Ninetales>0.03</PW_Ninetales>
+      <PW_Wurmple>1.0</PW_Wurmple>
+      <PW_Silcoon>0.7</PW_Silcoon>
+      <PW_Cascoon>0.7</PW_Cascoon>
+      <PW_Beautifly>0.5</PW_Beautifly>
+      <PW_Dustox>0.5</PW_Dustox>
+      <PW_Poochyena>1.0</PW_Poochyena>
+      <PW_Mightyena>0.4</PW_Mightyena>
+      <PW_Kangaskhan>0.3</PW_Kangaskhan>
+      <PW_Rattata>1.0</PW_Rattata>
+      <PW_Raticate>0.4</PW_Raticate>
+      <PW_Drifloon>0.4</PW_Drifloon>
+      <PW_Drifblim>0.03</PW_Drifblim>
+      <PW_Buneary>0.7</PW_Buneary>
+      <PW_Lopunny>0.2</PW_Lopunny>
+      <PW_Yanma>0.5</PW_Yanma>
+      <PW_Yanmega>0.1</PW_Yanmega>
+      <PW_Kricketot>1.0</PW_Kricketot>
+      <PW_Kricketune>0.5</PW_Kricketune>
+      <PW_Shinx>1.0</PW_Shinx>
+      <PW_Luxio>0.4</PW_Luxio>
+      <PW_Luxray>0.09</PW_Luxray>
+      <PW_Starly>1.0</PW_Starly>
+      <PW_Staravia>0.5</PW_Staravia>
+      <PW_Staraptor>0.1</PW_Staraptor>
+      <PW_Houndour>0.7</PW_Houndour>
+      <PW_Houndoom>0.3</PW_Houndoom>
+      <PW_Ponyta>0.5</PW_Ponyta>
+      <PW_Rapidash>0.2</PW_Rapidash>
+      <PW_Electabuzz>0.3</PW_Electabuzz>
+      <PW_Chikorita>0.03</PW_Chikorita>
+      <PW_Bayleef>0.02</PW_Bayleef>
+      <PW_Meganium>0.01</PW_Meganium>
+      <PW_Seedot>0.7</PW_Seedot>
+      <PW_Nuzleaf>0.5</PW_Nuzleaf>
+      <PW_Shiftry>0.1</PW_Shiftry>
+      <PW_Taillow>0.7</PW_Taillow>
+      <PW_Swellow>0.4</PW_Swellow>
+      <PW_Rhyhorn>0.5</PW_Rhyhorn>
+      <PW_Rhydon>0.2</PW_Rhydon>
+      <PW_Whismur>0.4</PW_Whismur>
+      <PW_Loudred>0.07</PW_Loudred>
+      <PW_Exploud>0.04</PW_Exploud>
+    </value>
+        </li>
+      </operations>
+		</match>
+	</Operation>
+
+</Patch>
